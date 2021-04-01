@@ -1,0 +1,104 @@
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dark1: #21252B;
+    --dark2: #333842;
+    --text1: #CCCCCC;
+    --text2: #999999;
+  }
+
+  .bg-white,
+  ._4ea0e50d,
+  body {
+    background-color: var(--dark1) !important;
+  }
+
+  ._2f299eeb,
+  ._98714ae6,
+  ._6d9832ac pre,
+  ._6d9832ac code,
+  .cd2827bb,
+  ._94b965b0,
+  ._7eb68a55 {
+    background-color: var(--dark2) !important;
+  }
+
+  ._0edb515f,
+  ._99e3854f,
+  .c6c55db4,
+  ._98714ae6,
+  ._98714ae6 a,
+  .black,
+  ._6d9832ac h1, ._6d9832ac h2, ._6d9832ac h3,
+  ._6d9832ac h4, ._6d9832ac h5, ._6d9832ac h6,
+  ._6d9832ac strong,
+  .markdown .storage.type,
+  .cd2827bb,
+  .a0dff0b1,
+  ._1b8c0a9f,
+  ._5d3decdb,
+  .pl-c1, .pl-s .pl-v,
+  .b8f9b0bd,
+  ._8a2f7809,
+  .markdown .highlight,
+  .markdown .keyword,
+  .markdown .variable {
+    color: var(--text1) !important;
+  }
+
+  .black-90,
+  .black-80,
+  .black-70,
+  .black-60,
+  .black-50,
+  .markdown p,
+  .markdown li,
+  .cd2827bb a,
+  .c780cb82 a {
+    color: var(--text2) !important;
+  }
+
+  .dde91b96,
+  ._5d3decdb,
+  .b--black-10 {
+    border-color: var(--dark2) !important;
+  }
+
+  ._98714ae6,
+  ._8a2f7809 {
+    border-bottom: 1px solid var(--text2) !important;
+  }
+
+  .b5be2af6 svg,
+  ._5cfc0900 svg,
+  svg path[fill="#231F20"],
+  svg g[fill="#0A0B09"] {
+    fill: var(--text1) !important;
+  }
+
+  ._8055e658._7cec0316 ._38ce9a85 {
+    color: #8956FF !important;
+  }
+
+  .markdown .storage.type {
+    color: #c678dd !important;
+  }
+  .pl-v,
+  .pl-smw,
+  .markdown .support.class {
+    color: #d19a66 !important;
+  }
+  .markdown .support.constant,
+  .markdown .support.function,
+  .markdown .support.type,
+  .pl-e, .pl-en {
+    color: #56b6c2 !important;
+  }
+  .markdown .string,
+  .pl-s, .pl-pds, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sre, .pl-sr .pl-sra {
+    color: #98c379 !important;
+  }
+  .markdown .entity.name.function {
+    color: #61afef !important;
+  }
+}
