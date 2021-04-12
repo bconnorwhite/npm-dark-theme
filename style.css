@@ -22,8 +22,13 @@
   ._6d9832ac code,
   .cd2827bb,
   ._94b965b0,
-  ._7eb68a55 {
+  ._7eb68a55,
+  .markdown blockquote {
     background-color: var(--dark2) !important;
+  }
+
+  .markdown blockquote {
+    border-left: var(--text2) solid 10px !important;
   }
 
   ._0edb515f,
