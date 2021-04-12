@@ -9,7 +9,10 @@
 
   .bg-white,
   ._4ea0e50d,
-  body {
+  body,
+  .markdown td,
+  .markdown th,
+  .markdown tr:nth-child(2n) td {
     background-color: var(--dark1) !important;
   }
 
@@ -42,7 +45,8 @@
   ._8a2f7809,
   .markdown .highlight,
   .markdown .keyword,
-  .markdown .variable {
+  .markdown .variable,
+  div#readme.markdown {
     color: var(--text1) !important;
   }
 
