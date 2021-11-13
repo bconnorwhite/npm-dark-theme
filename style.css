@@ -7,9 +7,11 @@
     --text2: #999999;
   }
 
+  html,
+  body,
+  #main,
   .bg-white,
   ._4ea0e50d,
-  body,
   .markdown td,
   .markdown th,
   .markdown tr:nth-child(2n) td {
